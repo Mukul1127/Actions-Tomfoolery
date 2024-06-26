@@ -1,1 +1,11 @@
+name: macOS
 
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: macos-latest
+    steps:
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
