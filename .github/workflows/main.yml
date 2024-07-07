@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Setup Debug Session
-        uses: fawazahmed0/action-debug@main
+        uses: mxschmitt/action-tmate@v3.18
