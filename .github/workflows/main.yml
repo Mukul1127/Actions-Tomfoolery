@@ -6,7 +6,7 @@ on:
 jobs:
   debug:
     name: Debug
-    runs-on: macos-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Setup Debug Session
         uses: mxschmitt/action-tmate@43767ec126ce819b2c3e6ac57a8951a7833e4ad7 # v3.18 + actions node20 bump
